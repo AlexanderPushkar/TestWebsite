@@ -1,0 +1,89 @@
+p {
+    color: gold;
+    width: 500px;
+    border: 1px solid black;
+    background-color: gray;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 24em;
+  }
+
+  /**
+
+the inital letter, such as p, means that <p> elements are affected. 
+Change it to affect different elements
+
+color: red;, specifies which of the elemnts properties you want to style
+
+color:, called a property, ways you can style an HTML element.
+Color is a property of the <p> element. In CSS, you choose which properties you affect in the rule
+
+    Property value, after the colon, chooses one out of many possible appearances for a given property
+
+Rules: 
+-rulesets much be wrapped in curly braces  
+-Each declaration, you must use a colon to separate the property from its value/s 
+-use semicolon to separate each declaration
+
+Selector Cheat Seat (https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics)
+
+Saved Links (Irrevelent)
+
+https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/git-basics
+https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/introduction-to-the-front-end
+https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics
+https://github.com/TheFlamingMage/HighLevelLanguage 
+
+
+**/
+
+h1 {
+  text-shadow: 3px 3px 1px black;
+  font-size: 60px;
+  text-align: center;
+  margin: 0;
+  padding: 20px 0;
+  color: #000
+}
+
+/*
+
+First pixle is the horizontal offset
+Second pixel is the vertical offset
+Third pixel is the blur radius
+
+*/
+
+p, li, head, body {
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+html {
+  background-color: #f3f583 ;
+}
+
+body {
+  width: 600px;
+  margin: 0 auto;
+  background-color: #FF9500;
+  padding: 0 20px 20px 20px;
+  border: 10px solid #e8ca3c;
+}
+
+/*
+
+Works in Boxes, external box is called margin,
+inside is the border, the solid line around padding
+padding is the space inside the border 
+and arround paragraph text
+
+*/
+
+img {
+  display: block;
+  margin: 0 auto;
+}
