@@ -73,3 +73,17 @@ myButton.onclick = function() {
 }
 
 
+//Attempt to store uploaded image then add to image slideshow
+
+let myHeader2 = document.querySelector('h2')
+let data = document.getElementById('myFile').value;
+
+localStorage.setItem('storedFile', data);
+
+let Submitbutton = document.getElementById('SubmitButton')
+
+Submitbutton.onclick = function() {
+    myHeader2.textContent = localStorage.getItem('storedFile');
+}
+
+
