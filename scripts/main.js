@@ -75,15 +75,35 @@ myButton.onclick = function() {
 
 //Attempt to store uploaded image then add to image slideshow
 
+/*
 let myHeader2 = document.querySelector('h2')
 let data = document.getElementById('myFile').value;
 
 localStorage.setItem('storedFile', data);
-
 let Submitbutton = document.getElementById('SubmitButton')
 
+
+const input = document.querySelector('input[type="file"]');
+const file = input.files[0];
+
+file instanceof File;
+file instanceof Blob;
+
+const formData = new FormData();
+formData.append('Orange.jpg', file);
+
+// Post the form, just make sure to set the 'Content-Type' header
+const res = await axios.post('/upload', formData, {
+  headers: {
+    'Content-Type': 'multipart/form-data'
+  }
+});
+
+
+
+
 Submitbutton.onclick = function() {
+    
     myHeader2.textContent = localStorage.getItem('storedFile');
 }
-
-
+*/

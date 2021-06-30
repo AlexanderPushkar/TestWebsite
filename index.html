@@ -1,5 +1,15 @@
 <!DOCTYPE html>
 <html>
+
+<style>
+ .gray-background {
+  background-color: gray;
+  border-color:black;
+  border-width: 10px;  
+ }
+</style>
+ <!-- Large Variety of Commands here, serach them up -->
+
   <head>
     <meta charset="utf-8">
     <title>Test page</title>
@@ -8,16 +18,17 @@
   <body>
     <h1>test test</h1>
   
-    <img src="images/red.png" alt="My test image">
+    <img src="images/red.png" alt="My test image"> 
     <p>This Is Two Images, Click It</p>
     
+    <div class="gray-background">  <!--by putting in (Variable Name)= it defines a class that can then be called on later to change property in <style>-->
     <ol>      <!--Change to ul for a bullet list-->
       <li>Item1</li>
       <li>Item2</li>
       <li>Item3</li>
     </ol>
-
-  <form action="file:///home/alex/TestWebsite/index.html">
+    </div>
+  <form action="index.html">
     <input type="file" id="myFile" name="filename" required>
     <input type="submit" id="SubmitButton" placeholder="Select Image" >
   </form>
