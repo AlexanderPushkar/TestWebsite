@@ -107,3 +107,13 @@ Submitbutton.onclick = function() {
     myHeader2.textContent = localStorage.getItem('storedFile');
 }
 */
+
+
+
+/*
+https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/html-and-css-basics
+https://www.freecodecamp.org/learn/responsive-web-design/basic-css/give-a-background-color-to-a-div-element
+https://github.com/TheFlamingMage/TestWebsite
+
+
+*/
