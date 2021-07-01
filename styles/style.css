@@ -54,14 +54,14 @@ Second pixel is the vertical offset
 Third pixel is the blur radius
 
 */
-
-p, li, head, body {
+/*
+p, head, body {
   font-size: 16px;
   line-height: 2;
   letter-spacing: 1px;
   text-align: center;
 }
-
+*/
 html {
   background-color: #f3f583 ;
 }
