@@ -50,11 +50,11 @@ html {
 }
 
 body {
-  background-color: (rgb(102, 156, 237));
+  background-color: (rgba(102, 156, 237,1));
   width: 600px;
   margin: 0 auto;
   padding: 0 20px 20px 20px;
-  border: 10px solid #e8ca3c;
+  border: 10px solid #0033cc;
 }
 
 /*
