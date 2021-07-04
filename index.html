@@ -1,59 +1,11 @@
 <!DOCTYPE html>
 <html>
-
-<!-- when using margin: its Top, Right, Bottom, Left -->
-
-<style>
- .gray-background {
-  background-color: gray;
-  border-color:black;
-  border-width: 20px;  
-  margin: auto 240px auto 240px;
- }
-
- p {
-   margin: 20px 120px auto 120px;
-   text-transform: capitalize;
-   padding: 10px;
- }
- 
-
- #FormElement { 
-   background-color: gray;
-   margin: auto 120px auto 120px;
-   border-color: black;
-   border-width: 20px;
- } 
- #WorkingLink {
-  opacity: 0.3;
-}
-#navbar {
-  position: fixed;
-  background-color: #767676;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 30px;
-}
-
-#testButton {
-    padding-left: 30px;
-}
-
-nav ul{
-  display: inline;
-  margin: Right;
-}
-
-</style>
- <!-- Large Variety of Commands here, serach them up ||| USE IDS ONLY ONCE #-->
-
   <head>
     <meta charset="utf-8">
     <title>Test page</title>
     <link href="styles/style.css" rel="stylesheet">
   </head>
-  <body>
+  <body !important>
     <h1>test test</h1>
     <nav id="navbar"> 
       <ul>
@@ -78,14 +30,14 @@ nav ul{
   </form>
 
   <h2 style="color: white !important">Image</h2>   <!--Adding !important prioritizes that change above anything else-->
-
+    <h3>
     <a>Dont Click</a>  <!-- A means anchor, important to link -->
     <a href="">Linked To Site</a> <!-- Preface to attribute a value, href just means Hypertext Reference-->
     <a href="https://www.fdogecoin.com" id='WorkingLink'>Fake Linked</a> 
-  
+    </h3>
 
     <p>Click Below To Change User</p>
-    <button>Change user</button> <!-- interactable button -->
+    <button id=ChangeUser>Change user</button> <!-- interactable button -->
     <script src="scripts/main.js"></script>
   </body>
 </html> 

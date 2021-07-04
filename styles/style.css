@@ -1,12 +1,10 @@
 p {
     color: gold;
-    width: 500px;
+    width: auto;
     border: 1px solid black;
     background-color: gray;
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    width: 24em;
+
   }
 
   /**
@@ -27,15 +25,6 @@ Rules:
 -use semicolon to separate each declaration
 
 Selector Cheat Seat (https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics)
-
-Saved Links (Irrevelent)
-
-https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/git-basics
-https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/introduction-to-the-front-end
-https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics
-https://github.com/TheFlamingMage/HighLevelLanguage 
-
-
 **/
 
 h1 {
@@ -54,22 +43,16 @@ Second pixel is the vertical offset
 Third pixel is the blur radius
 
 */
-/*
-p, head, body {
-  font-size: 16px;
-  line-height: 2;
-  letter-spacing: 1px;
-  text-align: center;
-}
-*/
 html {
-  background-color: #f3f583 ;
+  font-family: sans-serif;
+  height: 100%;
+  background-image: linear-gradient(rgba(232, 234, 237,1), rgba(153, 157, 163,0.5)); 
 }
 
 body {
+  background-color: (rgb(102, 156, 237));
   width: 600px;
   margin: 0 auto;
-  background-color: #FF9500;
   padding: 0 20px 20px 20px;
   border: 10px solid #e8ca3c;
 }
@@ -87,3 +70,82 @@ img {
   display: block;
   margin: 0 auto;
 }
+
+ .gray-background {
+  background-color: (rgb(102, 156, 237));
+  border-color:black;
+  border-width: 20px;  
+  margin: auto 240px auto 240px;
+ }
+
+ p {
+   margin: 20px 120px 20px 120px;
+   text-transform: capitalize;
+   padding: 10px 20% auto 20%;
+ }
+ 
+
+ #FormElement { 
+   background-color: gray;
+   margin: auto 120px auto 120px;
+   border-color: black;
+   border-width: 20px;
+ } 
+ #WorkingLink {
+  opacity: 0.3;
+}
+
+#navbar {
+  position: fixed;
+  background-color: #767676;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 30px;
+}
+
+#testButton {
+    padding-left: 30px;
+}
+
+nav ul{
+  display: fixed;
+  margin-top: 4px;
+}
+
+#left{
+    left: 0px;
+    float: left;
+}
+
+#right{
+    float: right;
+    right: 0px;
+}
+
+.LeftRight{
+  top: 230px;
+  font-size: 16px;
+  position: fixed;
+  width: 40%;
+  border-width: 10px;
+  border-color: black;
+  border-style: dotted;
+  text-align: center;
+}
+
+section{
+    background-color: gray;
+    margin: 20px 20px;
+    padding-left: 40px;
+    padding-right: 5px;
+    padding: 20px 75px 20px 25px;
+}
+
+h3, h2 {
+  text-align: center;
+}
+
+#ChangeUser {
+  text-align: center;
+} 
